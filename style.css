@@ -255,8 +255,6 @@ footer{
         display: none;
     }
 
-
-
     header .Logo{
         font-size:  4vw;
         padding-left: .5vw;
@@ -267,8 +265,11 @@ footer{
     }
 
     .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 33vh;
 
-        height: 43vh;
     }
 
     .title .header{
@@ -280,14 +281,16 @@ footer{
     .h-text{
         font-size: 3.8vw;
         text-align: justify;
+        width: 100%;
+        text-align: justify;
 
     }
 
     .testimonies{
 
         display: grid;
-        row-gap: 1vw;
-        column-gap: none;
+        row-gap: 3vw;
+        column-gap: 5vw;
         height: 13vh;
         grid-template-columns: repeat(2, 1fr);
         padding: 1vh 25vw;
@@ -300,7 +303,7 @@ footer{
 
 
     .coms{
-
+        margin-top: 1vh;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 0px;
@@ -318,6 +321,7 @@ footer{
 
         display: flex;
         height: 90%;
+
     }
 
     .comss{
@@ -330,7 +334,7 @@ footer{
     }
 
     .comt{
-        font-size: 2.8vw;
+        font-size: 2.3vw;
 
     }
 
@@ -392,7 +396,10 @@ footer{
         display: none;
     }
 
+    .h-text{
+        width: 100%;
 
+    }
 
     header .Logo{
         font-size:  2vw;
@@ -533,4 +540,6 @@ footer{
         width: 42%;
         text-align: justify;
     }
+
+
 }
